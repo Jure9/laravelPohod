@@ -1,27 +1,32 @@
 <!doctype html>
 <html>
 <head>
+
     @include('includes.head')
+
 </head>
-<body>
+
+<body @yield('body')>
+
+
 <div class="container">
 
-    <header class="row">
-        @include('includes.header')
-    </header>
-
-    <div class="container">
-        <div class="content">
-            <div class="title">@yield('content')</div>
-        </div>
-    </div>
+    @include('includes.header')
 
 
+    @yield('content')
 
-    <footer class="row">
-        @include('includes.footer')
-    </footer>
+
+    @include('includes.footer')
 
 </div>
+
+
+<!-- jQuery -->
+<script src="twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>
+
 </body>
 </html>

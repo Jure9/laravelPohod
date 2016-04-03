@@ -3,31 +3,26 @@
 <head>
     @include('includes.head')
 </head>
-<body>
+<body @yield('body')>
 <div class="container">
 
-    <header class="row">
+
         @include('includes.header')
-    </header>
 
-    <div id="main" class="row">
+    <!-- main content -->
 
-        <!-- sidebar content -->
-
-        @include('includes.sidebar')
+        @yield('content')
 
 
-        <!-- main content -->
-        <div class="col-md-8">
-            @yield('content')
-        </div>
 
+    <div class="navbar navbar-fixed-bottom">
+        @include('includes.footer')
     </div>
 
-    <footer class="row">
-        @include('includes.footer')
-    </footer>
-
 </div>
+
+
+@yield('JQ')
+
 </body>
 </html>

@@ -1,4 +1,17 @@
 @extends('layouts.default')
+
+@section('body')
+    id="homm"
+@stop
+
 @section('content')
-    Let's travel
+
+
+    <div class="content">
+    <div class="title">Comme and travel with us!</div>
+    </div>
+
+
+
+
 @stop

@@ -11,13 +11,21 @@
 |
 */
 
-Route::get('/',['uses'=>'PozdravController@index']);
+Route::get('/',['uses'=>'SiteController@index']);
 
-Route::get('about',['uses'=>'PozdravController@about']);
+Route::get('about',['uses'=>'SiteController@about']);
 
-Route::get('crusades',['uses'=>'PozdravController@crusades']);
+Route::get('crusades',['uses'=>'SiteController@crusades']);
 
-Route::get('contact',['uses'=>'PozdravController@contact']);
+Route::get('crusadesAll',['uses'=>'SiteController@crusadesAll']);
+
+Route::get('contact',['uses'=>'SiteController@contact']);
+
+Route::post('addTrip',['uses'=>'SiteController@store_trip']);
+
+Route::get('addTrip',['uses'=>'SiteController@addTrip']);
+
+Route::get('trip/{id}', ['uses'=>'SiteController@showTrip']);
 
 
 

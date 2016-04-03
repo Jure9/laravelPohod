@@ -1,1 +1,5 @@
-<div class="footer navbar-fixed-bottom">© Copyright 2016 J.J.</div>
+<footer id="footer">
+    <div class="container">
+        <p>© 2015 J.J, All Rights Reserved.</p>
+    </div>
+</footer>

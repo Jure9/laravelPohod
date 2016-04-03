@@ -1,0 +1,141 @@
+/* ---------------------------------------------- /*
+ * General styles
+/* ---------------------------------------------- */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 30px;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+#homm, #cruss, #con {
+    background: url("https://wallpaperscraft.com/image/plain_greens_clouds_fields_tranquillity_42471_3840x2160.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bout {
+    background: url("http://www.invadertech.com/wp-content/uploads/2014/06/about-us.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+
+#footerII {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    clear: both;
+}
+
+/* ---------------------------------------------- /*
+ * Contact
+/* ---------------------------------------------- */
+
+#contact {
+    background: #18191a;
+    color: #FFF;
+}
+
+#contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
+    color: #FFF;
+}
+
+#contact .form-control {
+    border: 0;
+}
+
+.widget-social {
+    padding: 0;
+    margin: 0;
+}
+
+.widget-social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.widget-social li a {
+    background: #2e2e2e;
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.25em;
+    color: #FFF;
+}
+
+.widget-social li a:hover {
+    background: #808080;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.icon-list > li {
+    margin-right: 6px;
+}
+
+.icon-list > li > i {
+    margin-right: 6px;
+}
+
+.form-control {
+    height: 62px;
+    font-size: 12px;
+}
+
+/* ---------------------------------------------- /*
+ * Custom button style
+/* ---------------------------------------------- */
+
+.btn-custom-1 {
+    background: transparent;
+    border: 2px solid #808080;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+}
+
+/* ---------------------------------------------- /*
+ * add_trip form
+/* ---------------------------------------------- */
+
+.nuTrip_form {
+    border: solid black;
+    margin-top: 105px;
+
+}
